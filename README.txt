@@ -40,8 +40,22 @@ FileManager程序说明
 		
 
 使用说明:
+配置下载源
+
+[global]
+index-url = http://mirrors.aliyun.com/pypi/simple
+[install]
+trusted-host = mirrors.aliyun.com
+pip.ini
+
+https://www.cnblogs.com/schut/p/10410087.html
+
 1.程序所需第三方包opencv,pillow,windnd,moviepy,natsort
-安装 pip install 
+安装 pip install opencv pillow windnd moviepy natsort   pypiwin32
+opencv 异常 可以使用
+pip install cv2
+pip install opencv-python
+
 
 2.运行方式 python filemanager.py
 
